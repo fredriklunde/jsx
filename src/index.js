@@ -9,7 +9,7 @@ const App = function() {
 
     return (
         <div>
-            <label class="label" for="name">
+            <label className="label" htmlFor="name">
                 {labelText}
             </label>
             <input id="name" type="text" />
